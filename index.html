@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -7,7 +8,7 @@
         <meta name="author" content="" />
         <title>Militia21</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="https://cdn.glitch.com/37565d03-458f-4ff5-bd8c-28c547928dab%2Fthumbnails%2FMilitia21%20Logo%2C%20Space%20Design%20(1).png?1610967986391" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -16,7 +17,13 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+
+    <body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+ <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -148,6 +155,7 @@
                     </a>
                 </div>
             </div>
+            
         </section>
         <!-- Footer-->
         <footer class="footer text-center">
@@ -378,6 +386,9 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+</div>
+
+   
 
 
     
